@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Basic biography page for Starr, covering her skills, and how to contact her." >
+    <meta name="author" content="Starr C." >
+    <title>Starr C. - Aspiring Author</title>
+  </head>
+  <body>
+    <!-- Header - name, professional skills, and about/skills/contact navigation -->
+    <header>
+      <h1>Starr C. - Aspiring Author</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main element below -->
+    <main>
+      <!-- About below -->
+      <section id="about">
+        <h2>About Starr</h2>
+        <img
+          src="./assets/jessBailey_desk.jpg"
+          alt="A pair of glasses, paper clips, pens, journals and other desk notions, all copper, white and pink, lie on a white table." >
+        <p>
+          While a reclusive figure, Starr has had her fingers to the pen, pencil
+          or keyboard for much of her life. Whether she's writing about her
+          observations of the world both before her and online, or from the
+          images or movies that play within her head, you'll find she's often
+          got quite a bit to say!
+        </p>
+        <p>
+          When she's not working on a blog post, a short story, or similar fare,
+          she may be found modifying her electronics, looking into various
+          aspects of interior design, or performing research for its own sake.
+          Knowledge is power, after all.
+        </p>
+      </section>
+      <!-- Skillset below -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <h3>Writing and Authorship</h3>
+        <ul>
+          <li>Creative Writing</li>
+          <li>Product Reviews</li>
+          <li>Misc. Nonfiction</li>
+        </ul>
+        <h3>Web Development</h3>
+        <ul>
+          <li>HTML, CSS and Javascript</li>
+          <li>UI Design</li>
+        </ul>
+        <h3>Visual Arts and Graphics</h3>
+        <ul>
+          <li>Adobe Creative Suite</li>
+          <li>3D Modeling - Blender</li>
+        </ul>
+      </section>
+      <!-- Contact below -->
+      <section id="contact">
+        <h2>Contact Starr</h2>
+        <p>
+          Besides this website, you're most likely to find her on
+          <a href="https://bsky.app/" target="_blank">Bluesky</a>, but if you
+          need to send a direct message, you can fill out this form below!
+        </p>
+        <p>
+          <label>Name:</label>
+          <input type="text" id="name" name="name" required >
+          <br>
+          <label>Return Email:</label>
+          <input type="email" id="email" name="email" required >
+          <br>
+          <label>Write your inquiry here:</label>
+          <textarea id="comment" name="comment" rows="5" cols="60" required>Enter your message here</textarea>
+          <br>
+          <input type="submit" value="Send Email" >
+        </p>
+      </section>
+    </main>
+    <footer>© Starr C. 2025</footer>
+  </body>
+</html>
